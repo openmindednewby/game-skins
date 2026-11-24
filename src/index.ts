@@ -32,3 +32,40 @@ export { GameSkinId } from './palettes/gameSkinId';
 export type { SkinPalette } from './palettes/skinPalette';
 export { GAME_SKINS, gameSkin } from './palettes/palettes';
 export { hexCss, paletteUi } from './palettes/paletteUi';
+export { BoardProjection } from './board/boardProjection';
+export { FilterKind } from './board/filterKind';
+export { PacketShape } from './board/packetShape';
+export { Waveform } from './board/waveform';
+export type {
+  BoardBloomSpec,
+  BoardDropMarkSpec,
+  BoardGridSpec,
+  BoardLightSpec,
+  BoardNodeSpec,
+  BoardPacketSpec,
+  BoardRender,
+  BoardSamplingSpec,
+  BoardShadowSpec,
+  BoardSkin,
+  BoardSkinKeys,
+  BoardTypeSpec,
+  BoardWireSpec,
+  ChromeSpec,
+  FailureFx,
+  FontSpec,
+  HeatStop,
+  HumSpec,
+  Ramp,
+  ToneFilter,
+  ToneLayer,
+  ToneSpec,
+  TypeScale,
+  TypeStep,
+} from './board/types';
+export { heatAt } from './board/heatAt';
+export { createSkinRegistry } from './registry/skinRegistry';
+export type { SkinEntry, SkinRegistry } from './registry/skinRegistry';
+export { memorySkinStorage, webSkinStorage } from './registry/skinStorage';
+export type { SkinStorage } from './registry/skinStorage';
+export { createSkinStore } from './registry/skinStore';
+export type { SkinStore, SkinStoreOptions } from './registry/skinStore';
